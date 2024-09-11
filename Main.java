@@ -8,6 +8,7 @@ public class Main {
         Pessoa pessoa5 = new Pessoa("Pedro Almeida");
 
         pessoa1.adicionarFuncao(new Ator("Protagonista"));
+        pessoa1.adicionarFuncao(new Roteirista());
         pessoa2.adicionarFuncao(new Ator("Antagonista"));
         pessoa3.adicionarFuncao(new Diretor());
         pessoa4.adicionarFuncao(new Roteirista());
